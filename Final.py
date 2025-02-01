@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 
 # Load dataset
-df = pd.read_csv('/Users/afiqan/Desktop/PMA/cleaned_mental_health_tech_survey.csv')
+df = pd.read_csv('cleaned_mental_health_tech_survey.csv')
 df['timestamp'] = pd.to_datetime(df['timestamp'])
 
 # Sidebar Header
